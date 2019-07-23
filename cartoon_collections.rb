@@ -7,7 +7,7 @@ order = 1
 end
 
 def summon_captain_planet(array)
-  
+  array.map { |word| word.capitalize << "!"}
 end
 
 def long_planeteer_calls(array)
